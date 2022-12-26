@@ -17,70 +17,68 @@
     padding: 0;
 }
 
+a, a:hover {
+    color: unset;
+    text-decoration: none;
+}
+
 header {
     background-color: var(--color-primary);
     height: 100px;
     display: flex;
-    align-items: center;    
+    align-items: center;
+    color: var(--color-white);    
 }
 
-nav h1 {
-    color: var(--color-white);
+nav h1 {    
     font-size: 18px;
-    text-align: center;
-}
-
-nav a {
-    color: var(--color-white);
-    font-size: 14px;    
 }
 
 .container {
     width: 100%;
     max-width: 960px;
-    margin: 0 auto;    
+    margin: 0 auto;
+}
+
+.medias {    
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
-#space {
-    background-color: var(--color-secundary);
-    height: 418px;
+.medias a {
+    font-size: 14px;
+    padding-left: 10px;
 }
 
-#space h2 {
-    font-size: 32px;
-    color: var(--color-white);
+#looker-space {
+    padding: 20px 0px ;
+    background-color: var(--color-secundary);
+    height: auto;
     padding: 20px;
 }
 
-.card-fitness {
-    background-color: var(--color-card);
-    height: 127px;
-    border-radius: 8px;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    display: block;
-    padding: 20px;    
+.title-card {
+    color: var(--color-white);
 }
 
-.card-fitness h2 {
-    font-size: 20px;
-}
-
-.card-fitness p {
-    font-size: 14px;
-}
-
-.container-modalidades {
-    background-color: var(--color-white);
-    color: var(--color-primary);
-    height: 880px;
+.title-card h2 {
     font-size: 32px;
-    display: flex;
+    padding: 20px;
 }
 
-.container-lutas {
-    background-color: var(--color-secundary);
-    height: 106px;
+.card-space {
+    background-color: var(--color-card);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    
+}
+
+.card-space h3 {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.card-space p {
+    padding: 20px;
 }
