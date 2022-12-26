@@ -54,8 +54,7 @@ nav h1 {
 #looker-space {
     padding: 20px 0px ;
     background-color: var(--color-secundary);
-    height: auto;
-    padding: 20px;
+    height: auto;    
 }
 
 .title-card {
@@ -63,15 +62,14 @@ nav h1 {
 }
 
 .title-card h2 {
-    font-size: 32px;
-    padding: 20px;
+    font-size: 32px;    
+    margin-bottom: 40px;
 }
 
 .card-space {
     background-color: var(--color-card);
     border-radius: 8px;
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px;    
 }
 
 .card-space h3 {
@@ -81,4 +79,32 @@ nav h1 {
 
 .card-space p {
     padding: 20px;
+}
+
+#modalidades {
+    background-color: var(--color-white);
+    height: 880px;
+    padding: 20px 0;
+}
+
+.title-modalidades h2 {
+    color: var(--color-primary);
+    font-size: 32px;
+}
+
+.card-modalidades {
+    background-color: var(--color-secundary);
+    border-radius: 8px;
+    padding: 20px;
+    color: var(--color-white);
+    margin-bottom: 20px;
+}
+
+.card-modalidades h3 {
+    font-size: 20px;
+}
+
+.card-modalidades p {
+    font-size: 14px;
+    margin-top: 20px;
 }
