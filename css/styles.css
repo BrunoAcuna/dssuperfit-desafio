@@ -36,7 +36,7 @@ nav h1 {
 
 .container {
     width: 100%;
-    max-width: 960px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
@@ -75,6 +75,7 @@ nav h1 {
 .card-space h3 {
     padding-top: 20px;
     padding-left: 20px;
+    font-size: 20px;
 }
 
 .card-space p {
@@ -90,6 +91,7 @@ nav h1 {
 .title-modalidades h2 {
     color: var(--color-primary);
     font-size: 32px;
+    margin-bottom: 40px;
 }
 
 .card-modalidades {
@@ -107,4 +109,45 @@ nav h1 {
 .card-modalidades p {
     font-size: 14px;
     margin-top: 20px;
+}
+
+footer {
+    background-color: var(--footer-color);
+    color: var(--color-white);
+    height: 262px;  
+}
+
+.card-insta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.card-insta a {
+    margin-left: 10px;
+}
+
+.card-twiter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-twiter a {
+    margin-left: 10px;    
+}
+
+.card-direitos p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 36px;
+}
+
+.card-direitos address{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
