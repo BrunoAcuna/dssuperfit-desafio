@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
+
+:root {
+    --color-primary: #F03C42;
+    --color-secundary: #222374;
+    --color-white: #fff;
+    --footer-color: #000000;
+    --color-card: #CCCCCC;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--color-primary);
+    height: 100px;
+    display: flex;
+    align-items: center;    
+}
+
+nav h1 {
+    color: var(--color-white);
+    font-size: 18px;
+    text-align: center;
+}
+
+nav a {
+    color: var(--color-white);
+    font-size: 14px;    
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;    
+    display: flex;
+    justify-content: space-between;
+}
+
+#space {
+    background-color: var(--color-secundary);
+    height: 418px;
+}
+
+#space h2 {
+    font-size: 32px;
+    color: var(--color-white);
+    padding: 20px;
+}
+
+.card-fitness {
+    background-color: var(--color-card);
+    height: 127px;
+    border-radius: 8px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: block;
+    padding: 20px;    
+}
+
+.card-fitness h2 {
+    font-size: 20px;
+}
+
+.card-fitness p {
+    font-size: 14px;
+}
+
+.container-modalidades {
+    background-color: var(--color-white);
+    color: var(--color-primary);
+    height: 880px;
+    font-size: 32px;
+    display: flex;
+}
+
+.container-lutas {
+    background-color: var(--color-secundary);
+    height: 106px;
+}
